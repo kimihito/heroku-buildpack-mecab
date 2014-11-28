@@ -11,7 +11,7 @@ require "language_pack/version"
 class LanguagePack::Ruby < LanguagePack::Base
   MECAB_VENDOR_URL = "https://s3.amazonaws.com/mecab/libmecab-heroku.tar.gz"
   NAME                 = "ruby"
-  LIBYAML_VERSION      = "0.1.4"
+  LIBYAML_VERSION      = "0.1.6"
   LIBYAML_PATH         = "libyaml-#{LIBYAML_VERSION}"
   BUNDLER_VERSION      = "1.6.3"
   BUNDLER_GEM_PATH     = "bundler-#{BUNDLER_VERSION}"
